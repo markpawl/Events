@@ -1,0 +1,37 @@
+.venue{
+    background-color: bisque;
+    border: solid 1px chocolate;
+}
+.bio{
+    margin:10px;
+}
+.venue img{
+    height: 75px;
+    margin-right:10px;
+}
+.venuemodal {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 50px;
+    background-color: white;
+}
+.venueHeader{
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.venueInfo{
+    display:flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.venue button{
+    position:absolute;
+    right:20px;
+    margin: 10px;
+    display:inline;
+    height: 30px;
+}

@@ -1,0 +1,47 @@
+.songTitle{
+    font-weight:normal;
+    font-size: large;
+    background-color: bisque;
+    width: 250px;
+    display: inline-block;    
+}
+
+.songHeader{
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+.songHeader img{
+    background-color:blanchedalmond;
+    height: 22px;
+    margin-bottom: 2px;
+    border-radius: 15%;
+}
+
+.eventHeader{
+    background-color: bisque;
+    padding: 5px;    
+    font-size: normal;
+    font-weight: normal;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+.borderWhite{
+    border: 3px solid blanchedalmond;
+}
+.borderBlack{
+    border: 3px solid darkgrey;
+}
+.pageEnd{
+    height: 20px;
+    background-color: bisque;
+}
+
+.reverse{
+    transform: rotate(45deg);
+    :after {
+      content: '';
+    }
+}

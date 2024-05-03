@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  width: 100%;  /* Adjust width as needed */
+}
+
+.list-container {
+  flex: 1;  /* Makes the list take up remaining space */
+  padding: 10px;
+  min-width: 100px; 
+  border-right: 1px solid #ddd;  /* Optional border */
+}
+
+.details {
+  flex: 8;  /* Makes the details take up twice the space of the list */
+  padding: 10px;
+}

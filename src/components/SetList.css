@@ -1,0 +1,28 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.songIndent{
+    margin-left: 15px;
+}
+
+.setTitle{
+    background-color: bisque;
+    margin-bottom: 5px;
+    padding:5px;
+}
+
+.eventTitle{
+    background-color: burlywood;
+    font-weight:bold;
+    padding:5px;
+}
+
+.setSelected{
+    font-weight:bold;
+    color: blue;
+}

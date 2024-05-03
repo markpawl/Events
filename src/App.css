@@ -1,0 +1,59 @@
+ul{
+    list-style: none;
+    padding:0px;
+    margin:5px;
+}
+
+pre{
+    margin: 10px;
+}
+
+button{
+    font-size: small;;
+    border-radius: 20%;
+    border-color:rgb(179, 137, 86);
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.modal {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 38px;
+    background-color: white;
+}
+
+.bordered{
+    border: 1px solid lightgrey;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+.title{
+    font-weight:bold;
+    background-color: bisque;
+}
+.artistTitle{
+    font-weight:bold;
+    font-size: larger;
+    margin-left: 10px;  
+    color:white;
+    width: auto;
+}
+
+.appHeader{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: Normal;
+    padding: 5px; 
+}
