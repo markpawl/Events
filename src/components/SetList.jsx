@@ -60,7 +60,7 @@ export const SetList = (params) => {
 
     return (
         <>
-        <div className='eventTitle' >x{params.locater.event.title}</div>
+        <div className='eventTitle' >{params.locater.event.title}</div>
         <div>
             <Sets {...params} />
         </div>
