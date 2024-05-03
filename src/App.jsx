@@ -106,7 +106,6 @@ const App = () => {
     }
 
     const toggleSidebar = (event) => { 
-        
         if(showSidebar){
             setShowSidebar(false);
         }else{
@@ -117,8 +116,27 @@ const App = () => {
         event.stopPropagation();
     }
 
-    const toggleArtistModal = (item) => { setShowArtist(!showArtist); }    
-    const toggleVenueModal = (item) => { setShowVenue(!showVenue); } 
+    const toggleArtistModal = (event) => { 
+        if(showArtist){
+            setShowArtist(false);
+        }else{
+            setShowArtist(true);
+            setShowVenue(false);
+            setShowSidebar(false);
+        }
+        event.stopPropagation();         
+    }    
+
+    const toggleVenueModal = (event) => { 
+        if(showVenue){
+            setShowVenue(false);
+        }else{
+            setShowArtist(false);
+            setShowVenue(true);
+            setShowSidebar(false);
+        }
+        event.stopPropagation();        
+    } 
 
 
     return (
