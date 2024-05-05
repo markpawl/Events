@@ -21,14 +21,14 @@ button{
     display: block;
 }
 
-.modal {
+/* .modal {
     position: absolute;
     width: auto;
     height: auto;
     left: 0px;
     top: 110px;
     background-color: white;
-}
+} */
 
 .bordered{
     border: 1px solid lightgrey;

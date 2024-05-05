@@ -26,3 +26,12 @@
     font-weight:bold;
     color: rgb(145, 54, 54);
 }
+
+.modal {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 25px;
+    top: 110px;
+    background-color: white;
+}
