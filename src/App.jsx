@@ -184,6 +184,7 @@ const App = () => {
             </VenueModal>                       
             <PageContent
                 showSidebar={showSidebar}
+                showVenue={showVenue}
                 onNext={onNext}
                 isFirst = {isFirst}
                 isLast = {isLast}

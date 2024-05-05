@@ -41,9 +41,12 @@ export const PageContent = (params) => {
             <div className={'eventHeader'}
                 onClick={params.toggleVenueModal}
             >
-                <span>Event: </span>
+                {/* <span>Event: </span> */}
+                <span onClick={params.toggleVenueModal}>
+                    <i className={getCaretClasses(params.showVenue)} ></i>
+                </span>                
                 <span className={"bolded"} >
-                    {params.current.event.title} @ {params.event.venue.name}
+                    &nbsp;{params.current.event.title} @ {params.event.venue.name}
                 </span>
             </div>
 
