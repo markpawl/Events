@@ -183,10 +183,12 @@ const App = () => {
                 </div>
             </VenueModal>                       
             <PageContent
+                showSidebar={showSidebar}
                 onNext={onNext}
                 isFirst = {isFirst}
                 isLast = {isLast}
                 onPrevious={onPrevious}
+                toggleSidebar={toggleSidebar}
                 toggleVenueModal={toggleVenueModal}
                 current={getCurrent(locater)}
                 event={event}

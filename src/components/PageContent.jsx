@@ -28,6 +28,14 @@ export const PageContent = (params) => {
         }
     }
 
+    function getCaretClasses(showVariable){
+        if(showVariable){
+            return "bi bi-caret-down-fill";
+        }else{
+            return "bi bi-caret-right-fill";
+        }
+    }
+
     return <>
         <div   >
             <div className={'eventHeader'}
@@ -40,7 +48,9 @@ export const PageContent = (params) => {
             </div>
 
             <div className={'songHeader'}  >
-
+                <span onClick={params.toggleSidebar}>
+                    <i className={getCaretClasses(params.showSidebar)} ></i>
+                </span>
                 <span className={"songTitle"}>
                     &nbsp;
                     <span style={{ fontSize: "large", fontWeight: "bold" }}>{params.current.song.title} </span>
@@ -52,10 +62,8 @@ export const PageContent = (params) => {
                     onClick={(event) => onClickPrevious(event)}
                     style={(params.isFirst) ? { backgroundColor: "lightgrey" } : {}}
                 >
-                    <span><i 
-                         className="bi bi-caret-left" // -fill
-                        // className="fa-solid fa-caret-left"
-
+                    <span><i
+                        className="bi bi-caret-left" // -fill
                     ></i></span>
                 </button>
                 &nbsp;
@@ -63,9 +71,9 @@ export const PageContent = (params) => {
                     onClick={(event) => onClickNext(event)}
                     style={(params.isLast) ? { backgroundColor: "lightgrey" } : {}}
                 >
-                    <span><i 
+                    <span><i
                         className="bi bi-caret-right" //-fill
-                        // className="fa-solid fa-caret-right"
+                    // className="fa-solid fa-caret-right"
                     ></i></span>
                 </button>
                 &nbsp;
