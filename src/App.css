@@ -31,6 +31,7 @@ button{
 
 .bordered{
     border: 2px solid chocolate;
+    border-radius: 4px;
 }
 
 .bolded{
