@@ -6,11 +6,15 @@
     font-weight:normal;
     font-size: large;
     background-color: bisque;
-    width: 250px;
+    width: 220px;
+    height: 30px;
+    overflow:hidden;
     display: inline-block;    
 }
 
 .songHeader{
+    display: flex;
+    flex-direction: row;
     background-color: blanchedalmond;
     padding: 5px;
 }
