@@ -26,11 +26,11 @@ button{
     height: auto;
     left: 0px;
     top: 110px;
-    background-color: white;
+    background-color: bisque;
 } */
 
 .bordered{
-    border: 1px solid lightgrey;
+    border: 2px solid chocolate;
 }
 
 .bolded{
