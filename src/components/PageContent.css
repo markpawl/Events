@@ -1,3 +1,7 @@
+.caretIcon{
+    font-size: larger;
+}
+
 .songTitle{
     font-weight:normal;
     font-size: large;
@@ -12,8 +16,8 @@
 }
 .songHeader img{
     background-color:blanchedalmond;
-    height: 22px;
-    margin-bottom: 2px;
+    height: 28px;
+    margin-bottom: 3px;
     border-radius: 15%;
 }
 

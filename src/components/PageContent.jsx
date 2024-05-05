@@ -30,9 +30,9 @@ export const PageContent = (params) => {
 
     function getCaretClasses(showVariable){
         if(showVariable){
-            return "bi bi-caret-down-fill";
+            return "caretIcon bi bi-caret-down-fill";
         }else{
-            return "bi bi-caret-right-fill";
+            return "caretIcon bi bi-caret-right-fill";
         }
     }
 
