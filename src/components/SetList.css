@@ -17,9 +17,12 @@
 }
 
 .eventTitle{
-    background-color: burlywood;
+    background-color: chocolate;
+    color:bisque;
     font-weight:bold;
     padding:5px;
+    text-align: center;
+    /* border: 1px solid white; */
 }
 
 .setSelected{
