@@ -1,35 +1,55 @@
+import { useState } from 'react';
 import './SetList.css';
 
 export const SetList = (params) => {
+    // locater { EVENT, setNUMBER, songNUMBER }
+    const[localLocater, setLocalLocater] = useState({...params.locater});
 
-    let selectedSet = params.locater.setNumber;
-    let selectedSong = params.locater.songNumber;
+    let eventObject = localLocater.event; 
+    let selectedSet = localLocater.setNumber;
+    let selectedSong = localLocater.songNumber;
 
-    function onSetClick(index){
-        if(index !== selectedSet){
-            params.setLocater({event:params.locater.event, setNumber:index, songNumber:0});
+    function onSetClick(index) {
+        if( index === selectedSet){
+            setLocalLocater({ event: eventObject, setNumber: -1, songNumber: selectedSong });
+        }
+        if (index !== selectedSet) {
+            setLocalLocater({ event: params.locater.event, setNumber: index, songNumber: -1 });
         }
     }
 
     function onSongClick(event, index) {
-        params.setLocater({event:params.locater.event, setNumber:selectedSet, songNumber:index});
+        setLocalLocater({ ...localLocater, songNumber:index });
+        params.setLocater({ ...localLocater, songNumber:index });
         params.closeModal(event);
-    } 
+    }
+
+    function getCaretClasses(showVariable){
+        if(showVariable){
+            return "caretIcon bi bi-caret-down-fill";
+        }else{
+            return "caretIcon bi bi-caret-right-fill";
+        }
+    }
 
     function Set(params) {
 
         return (
             <div >
-                <div className={(selectedSet === params.setIndex)?'setTitle setSelected':'setTitle'} 
-                    onClick={()=>onSetClick(params.setIndex)}
+                <div className={(selectedSet === params.setIndex) ? 'setTitle setSelected' : 'setTitle'}
+                    onClick={() => onSetClick(params.setIndex)}
                 >
+                    <span>
+                        <i className={getCaretClasses((selectedSet === params.setIndex))} ></i>
+                    </span>
+                    &nbsp;
                     {params.set.name} {params.set.time}
                 </div>
-                <div className={(selectedSet === params.setIndex)?"show":"hide"} >
-                <Songs 
-                    {...params}
-                    songs={params.set.songs} 
-                />
+                <div className={(selectedSet === params.setIndex) ? "show" : "hide"} >
+                    <Songs
+                        {...params}
+                        songs={params.set.songs}
+                    />
                 </div>
             </div>
         );
@@ -45,7 +65,7 @@ export const SetList = (params) => {
     }
 
     function Songs(params) {
-            
+
         return (<ul className='songIndent'>{
             params.songs.map((item, index) => {
                 return <li
@@ -60,10 +80,10 @@ export const SetList = (params) => {
 
     return (
         <>
-        <div className='eventTitle' >Sets & Songs</div>
-        <div>
-            <Sets {...params} />
-        </div>
+            <div className='eventTitle' >Sets & Songs</div>
+            <div>
+                <Sets {...params} />
+            </div>
         </>
     )
 }
