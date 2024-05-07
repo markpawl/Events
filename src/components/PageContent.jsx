@@ -76,7 +76,6 @@ export const PageContent = (params) => {
                 >
                     <span><i
                         className="bi bi-caret-right" //-fill
-                    // className="fa-solid fa-caret-right"
                     ></i></span>
                 </button>
                 &nbsp;
