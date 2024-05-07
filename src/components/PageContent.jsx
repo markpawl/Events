@@ -88,7 +88,7 @@ export const PageContent = (params) => {
 
                 <img src="/images/germany-flag.png"
                     className={(language === "de" ? "borderBlack" : "borderWhite")}
-                    alt="usa flag"
+                    alt="germany flag"
                     onClick={(event) => onLanguageButtonPress(event, "de")}
                 ></img>
             </div>
