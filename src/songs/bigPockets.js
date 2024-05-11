@@ -1,8 +1,7 @@
 let song = {
 "title": "Big Pockets",
 "lyrics-en":
-`
-She has great big pockets where she carries all of us
+`She has great big pockets where she carries all of us
 No matter what we look like if we're big or if we're small
 In her great big pockets she carries us along
 everyone's included, and knows that they belong
@@ -36,8 +35,7 @@ La la la la La...
 `,
 
 "lyrics-de":
-`
-Sie hat tolle große Taschen, in denen sie uns alle trägt
+`Sie hat tolle große Taschen, in denen sie uns alle trägt
 Egal wie wir aussehen, ob wir groß oder klein sind
 In ihren großen Taschen trägt sie uns mit
 Jeder ist dabei und weiß, dass er dazugehört

@@ -1,8 +1,7 @@
 let song = {
 "title": "Goodbye",
 "lyrics-en":
-`
-Thought I'd be over this by now
+`Thought I'd be over this by now
 Thought I'd forget you somehow
 What's wrong I don't feel right
 Caught in this blue moonlight
@@ -35,8 +34,7 @@ just how to say Goodbye
 `,
 
 "lyrics-de":
-`
-Ich dachte, ich hätte das jetzt hinter mir
+`Ich dachte, ich hätte das jetzt hinter mir
 Ich dachte, ich würde dich irgendwie vergessen
 Was ist los? Ich fühle mich nicht richtig
 Gefangen in diesem blauen Mondlicht

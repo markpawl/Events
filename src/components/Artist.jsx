@@ -3,7 +3,7 @@ import "./Artist.css";
 export function Artist(params) {
 
     return (<div className={'artist'} >
-        <button onClick={() => params.closeModal({})}>
+        <button onClick={(event) => params.closeModal(event)}>
             <span><i className="bi bi-x-lg"></i></span>
         </button>
         <header className={'artistHeader'}>

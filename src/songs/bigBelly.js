@@ -1,8 +1,7 @@
 let song = {
 "title": "Big Belly",
 "lyrics-en":
-`
-My Belly’s full
+`My Belly’s full
 I’m Feeling warm inside
 Gonna rest my head
 And I’m Gonna close My Eyes
@@ -33,8 +32,7 @@ For me to close my eyes
 `,
 
 "lyrics-de":
-`
-Mein Bauch ist voll
+`Mein Bauch ist voll
 Mir ist innerlich warm
 Ich werde meinen Kopf ausruhen
 Und ich werde meine Augen schließen

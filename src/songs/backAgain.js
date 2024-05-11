@@ -1,8 +1,7 @@
 let song = {
 "title": "Back Again",
 "lyrics-en":
-`
-What are you doing, now that you're gone?
+`What are you doing, now that you're gone?
 Where are you going, now that you're gone?
 Who are you seeing, now that you're gone?
 What's left to believe in, what, what went wrong?
@@ -38,8 +37,7 @@ I'm back again
 `,
 
 "lyrics-de":
-`
-Was machst du, jetzt wo du weg bist?
+`Was machst du, jetzt wo du weg bist?
 Wohin gehst du, jetzt wo du weg bist?
 Wen siehst du, jetzt wo du weg bist?
 Woran kann man noch glauben, was, was ist schief gelaufen?

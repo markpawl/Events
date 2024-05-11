@@ -1,8 +1,7 @@
 let song = {
 "title": "Closer to You",
 "lyrics-en":
-`
-I remember when I met you, some years ago
+`I remember when I met you, some years ago
 you were special, right from the start
 The way you looked at me, that pixie smile,
 Made me forget about my troubles for a while
@@ -34,8 +33,7 @@ I'm gonna be, closer to you
 `,
 
 "lyrics-de":
-`
-Ich erinnere mich, als ich dich vor einigen Jahren traf
+`Ich erinnere mich, als ich dich vor einigen Jahren traf
 Du warst von Anfang an etwas Besonderes
 Die Art, wie du mich angeschaut hast, dieses Elfenlächeln,
 Hat mich für eine Weile meine Sorgen vergessen lassen

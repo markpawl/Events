@@ -1,8 +1,7 @@
 let song = {
 "title": "Get That Right",
 "lyrics-en":
-`
-Your shady ways are gonna mess up our life
+`Your shady ways are gonna mess up our life
 Caught you coming home once after going out twice
 Things are falling apart and you say I'm to blame
 Am I hearing it wrong, why don't you tell me again
@@ -34,8 +33,7 @@ but you're still out wandering who knows where
 `,
 
 "lyrics-de":
-`
-Deine zwielichtigen Wege werden unser Leben durcheinander bringen
+`Deine zwielichtigen Wege werden unser Leben durcheinander bringen
 Ich habe dich dabei erwischt, wie du einmal nach Hause kamst, nachdem du zweimal ausgegangen warst
 Die Dinge brechen auseinander und du sagst, ich sei schuld
 Höre ich das falsch? Warum sagst du es mir nicht noch einmal?

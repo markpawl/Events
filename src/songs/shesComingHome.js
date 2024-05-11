@@ -1,8 +1,7 @@
 let song = {
 "title": "She's Coming Home",
 "lyrics-en":
-`
-She looks into the mirror, nothing could be clearer
+`She looks into the mirror, nothing could be clearer
 something is happening, today
 such a long time on her own, feelings so far from home
 she needs to find another way
@@ -46,8 +45,7 @@ She's coming, She's coming, Home
 `,
 
 "lyrics-de":
-`
-Sie schaut in den Spiegel, nichts könnte klarer sein
+`Sie schaut in den Spiegel, nichts könnte klarer sein
 Heute passiert etwas
 so eine lange Zeit allein, Gefühle so weit weg von zu Hause
 Sie muss einen anderen Weg finden

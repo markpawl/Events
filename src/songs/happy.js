@@ -1,8 +1,7 @@
 let song = {
 "title": "Happy",
 "lyrics-en":
-`
-Sometimes I find myself acting kinda strange
+`Sometimes I find myself acting kinda strange
 Waiting on a corner for you standing in the rain
 But when these feelings resolve to something true
 I can see is that I am filled with thoughts of you
@@ -41,8 +40,7 @@ Happy, Happy, Happy, Happy
 `,
 
 "lyrics-de":
-`
-Manchmal benehme ich mich irgendwie seltsam
+`Manchmal benehme ich mich irgendwie seltsam
 Ich warte an einer Ecke auf dich und stehe im Regen
 Aber wenn sich diese Gefühle in etwas Wahres verwandeln
 Ich kann sehen, dass ich voller Gedanken an dich bin

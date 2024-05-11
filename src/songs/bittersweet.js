@@ -1,8 +1,7 @@
 let song = {
 "title": "Bittersweet",
 "lyrics-en":
-`
-She makes him dinner but she eats all alone
+`She makes him dinner but she eats all alone
 he shows up late as if nothing is wrong
 he's away working nearly all of the time
 she needs to talk but she lets him unwind
@@ -37,12 +36,10 @@ or love could be hard but
 love was meant to be
 bittersweet
 bittersweet
-
 `,
 
 "lyrics-de":
-`
-Sie macht ihm Abendessen, aber sie isst ganz alleine
+`Sie macht ihm Abendessen, aber sie isst ganz alleine
 Er kommt zu spät, als wäre alles in Ordnung
 Er ist fast die ganze Zeit unterwegs und arbeitet
 Sie muss reden, aber sie lässt ihn entspannen

@@ -13,7 +13,7 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    top: 50px;
+    top: 42px;
     background-color: white;
 }
 .artistHeader{
@@ -30,8 +30,10 @@
 
 .artist button{
     position:absolute;
-    right:20px;
-    margin: 10px;
+    font-size: small;
+    right:0px;
+    margin: 8px;
+    margin-top: 5px;
     display:inline;
-    height: 30px;
+    height: 28px;
 }

@@ -1,8 +1,7 @@
 let song = {
 "title": "Special Way",
 "lyrics-en":
-`
-I was lost and afraid, Not so easy to find
+`I was lost and afraid, Not so easy to find
 I been hiding away, And biding my time
 Now I'm looking for you, Cause I made up my mind
 There's a special place, I want you to find
@@ -34,8 +33,7 @@ she's gonna steal my heart, yeah, She's got a special way
 `,
 
 "lyrics-de":
-`
-Ich war verloren und hatte Angst. Nicht so leicht zu finden
+`Ich war verloren und hatte Angst. Nicht so leicht zu finden
 Ich habe mich versteckt und auf den richtigen Zeitpunkt gewartet
 Jetzt suche ich dich, denn ich habe mich entschieden
 Es gibt einen besonderen Ort, den du finden sollst

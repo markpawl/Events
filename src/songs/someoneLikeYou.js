@@ -1,8 +1,7 @@
 let song = {
 "title": "Someone Like You",
 "lyrics-en":
-`
-I like the way you talk
+`I like the way you talk
 I like the way you walk
 I like the way you sing
 You are so curious, you notice everything
@@ -41,8 +40,7 @@ Someone like You
 `,
 
 "lyrics-de":
-`
-Ich mag die Art wie du redest
+`Ich mag die Art wie du redest
 Mir gefällt die Art, wie du gehst
 Ich mag die Art, wie du singst
 Du bist so neugierig, du merkst alles

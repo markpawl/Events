@@ -3,7 +3,7 @@ import "./Venue.css";
 export function Venue(params) {
 
     return (<div className={'venue'} >
-        <button onClick={() => params.closeModal({})}>
+        <button onClick={(event) => params.closeModal(event)}>
             <span><i className="bi bi-x-lg"></i></span>
         </button>
         <header className={'venueHeader'}>

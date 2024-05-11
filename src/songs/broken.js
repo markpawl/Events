@@ -1,8 +1,7 @@
 let song = {
 "title": "Broken",
 "lyrics-en":
-`
-Here I am,
+`Here I am,
 Restless and bored
 Did someone say "Poppy's around"?
 You Know, what the Hell
@@ -28,8 +27,7 @@ In your arms
 `,
 
 "lyrics-de":
-`
-Hier bin ich,
+`Hier bin ich,
 Unruhig und gelangweilt
 Hat jemand gesagt: „Poppy ist da“?
 Weißt du, was zum Teufel

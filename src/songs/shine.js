@@ -1,8 +1,7 @@
 let song = {
 "title": "Shine",
 "lyrics-en":
-`
-I know a place where we can go
+`I know a place where we can go
 I'll see you there later
 You've got a face everyone knows cause they've
 seen it in the papers
@@ -33,8 +32,7 @@ shines and shines and shines
 Everything`,
 
 "lyrics-de":
-`
-Ich kenne einen Ort, wo wir hingehen können
+`Ich kenne einen Ort, wo wir hingehen können
 Wir sehen uns später dort
 Du hast ein Gesicht, das jeder kennt, weil sie es haben
 Habe es in den Zeitungen gesehen

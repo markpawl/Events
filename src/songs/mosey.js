@@ -1,8 +1,7 @@
 let song = {
 "title": "Mosey",
 "lyrics-en":
-`
-Mosey around
+`Mosey around
 Give yourself some extra space to walk around
 And then, when you're done
 Just return back to where you started from
@@ -30,8 +29,7 @@ Just return back to where you started from
 `,
 
 "lyrics-de":
-`
-Mosey herum
+`Mosey herum
 Gönnen Sie sich etwas mehr Platz zum Herumlaufen
 Und dann, wenn Sie fertig sind
 Kehren Sie einfach dorthin zurück, wo Sie angefangen haben

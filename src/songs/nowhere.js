@@ -1,8 +1,7 @@
 let song = {
 "title": "Nowhere",
 "lyrics-en":
-`
-Today's a good day
+`Today's a good day
 Today's the best day
 Today's a wonderful day
 It won't be long
@@ -58,8 +57,7 @@ Don't you know that you're already there
 `,
 
 "lyrics-de":
-`
-Heute ist ein guter Tag
+`Heute ist ein guter Tag
 Heute ist der beste Tag
 Heute ist ein wundervoller Tag
 Es wird nicht lange dauern

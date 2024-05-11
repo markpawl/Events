@@ -1,8 +1,7 @@
 let song = {
 "title": "Undertow",
 "lyrics-en":
-`
-You hang your head down low,
+`You hang your head down low,
 Gone to a place,
 Nobody knows,
 Hiding in disgrace
@@ -56,8 +55,7 @@ build another life
 `,
 
 "lyrics-de":
-`
-Du lässt deinen Kopf tief hängen,
+`Du lässt deinen Kopf tief hängen,
 An einen Ort gegangen,
 Niemand weiß,
 Versteckt sich in Schande

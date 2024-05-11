@@ -1,8 +1,7 @@
 let song = {
 "title": "Believe",
 "lyrics-en":
-`
-You dream of something better.
+`You dream of something better.
 But you're lost without a clue?
 Don't give up, no never
 Believe, Its up to you
@@ -30,8 +29,7 @@ Believe its up to you,
 Believe its up to you`,
 
 "lyrics-de":
-`
-Du träumst von etwas Besserem.
+`Du träumst von etwas Besserem.
 Aber Sie haben keine Ahnung?
 Gib nicht auf, nein, niemals
 Glauben Sie, es liegt an Ihnen

@@ -7,6 +7,7 @@ import { SetList } from './components/SetList';
 import { PageContent } from './components/PageContent';
 import { Artist } from './components/Artist';
 import { Venue } from './components/Venue';
+import { Menu } from './components/Menu';
 
 const Modal = (params) => {
     let modClasses = `modal ${(params.show) ? 'show' : 'hide'}`;
@@ -40,13 +41,16 @@ const App = () => {
     const [showSidebar, setShowSidebar] = useState(false);
     const [showArtist, setShowArtist] = useState(false);
     const [showVenue, setShowVenue] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
+
     const [locater, setLocater] = useState({ event: event, setNumber: 0, songNumber: 0 });
 
     function getCurrent(locater) {
         let event = locater.event;
         let currentSet = event.sets[locater.setNumber];
         let currentSong = currentSet.songs[locater.songNumber];
-        return { "event": locater.event, "songSet": currentSet, "song": currentSong };
+        let position = (locater.songNumber + 1) + "/" + currentSet.songs.length;
+        return { "event": locater.event, "songSet": currentSet, "song": currentSong, "position": position };
     }
 
     function getIsFirst(){
@@ -105,6 +109,18 @@ const App = () => {
         }
     }
 
+    const toggleMenu = (event) => { 
+        if(showMenu){
+            setShowMenu(false);
+        }else{
+            setShowArtist(false);
+            setShowVenue(false);
+            setShowSidebar(false);
+            setShowMenu(true);
+        }
+        event.stopPropagation();
+    }
+
     const toggleSidebar = (event) => { 
         if(showSidebar){
             setShowSidebar(false);
@@ -112,6 +128,7 @@ const App = () => {
             setShowArtist(false);
             setShowVenue(false);
             setShowSidebar(true);
+            setShowMenu(false);
         }
         event.stopPropagation();
     }
@@ -123,6 +140,7 @@ const App = () => {
             setShowArtist(true);
             setShowVenue(false);
             setShowSidebar(false);
+            setShowMenu(false);
         }
         event.stopPropagation();         
     }    
@@ -134,6 +152,7 @@ const App = () => {
             setShowArtist(false);
             setShowVenue(true);
             setShowSidebar(false);
+            setShowMenu(false);
         }
         event.stopPropagation();        
     } 
@@ -142,15 +161,19 @@ const App = () => {
     return (
         <div><header 
                 className={"appHeader"}
-                onClick={() => toggleArtistModal({})}
+                onClick={(event) => toggleArtistModal(event)}
             >
             <div>
-                <button onClick={(event) => toggleSidebar(event)}>
+                <button onClick={(event) => toggleMenu(event)}>
                     <span><i className="bi bi-list"></i></span>
                 </button>
             </div>
             <div  className={'artistTitle'}>Artist: {event.artist.name}</div>
         </header>
+            <Menu 
+              show={showMenu} 
+              closeMenu={toggleMenu}
+            />
             <Modal
                 show={showSidebar}
                 >

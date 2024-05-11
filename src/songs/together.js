@@ -1,8 +1,7 @@
 let song = {
 "title": "Together",
 "lyrics-en":
-`
-When you’ve got some troubles, don’t sit and cry at home
+`When you’ve got some troubles, don’t sit and cry at home
 And if you go out dancing, don’t ever dance alone
 Its friends you need, in times like these, to help you ease the pain
 Soon they’ll have you smiling and on your feet again, Hey!
@@ -34,8 +33,7 @@ We’re in it together
 `,
 
 "lyrics-de":
-`
-Wenn Sie Probleme haben, sitzen Sie nicht zu Hause und weinen Sie
+`Wenn Sie Probleme haben, sitzen Sie nicht zu Hause und weinen Sie
 Und wenn Sie tanzen gehen, tanzen Sie niemals alleine
 Es sind Freunde, die Sie in Zeiten wie diesen brauchen, um Ihnen zu helfen, den Schmerz zu lindern
 Bald werden Sie wieder lächeln und auf den Beinen sein, Hey!

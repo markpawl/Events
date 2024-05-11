@@ -1,8 +1,7 @@
 let song = {
 "title": "Slow",
 "lyrics-en":
-`
-Slow, take it slow
+`Slow, take it slow
 Slow, take it slow
 
 Some people are out of their minds
@@ -42,8 +41,7 @@ Slow, take it slow
 `,
 
 "lyrics-de":
-`
-Langsam, geh es langsam an
+`Langsam, geh es langsam an
 Langsam, geh es langsam an
 
 Manche Menschen sind verrückt

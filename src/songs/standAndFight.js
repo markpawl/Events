@@ -1,8 +1,7 @@
 let song = {
 "title": "Stand and Fight",
 "lyrics-en":
-`
-I remember a time, when I wasn’t satisfied
+`I remember a time, when I wasn’t satisfied
 Left everything that I knew behind
 Place to place I wandered, wasting time without a plan
 Youthful days squandered, thinking everything was grand
@@ -32,8 +31,7 @@ Gonna stand, gonna stand,
 gonna stand and fight`,
 
 "lyrics-de":
-`
-Ich erinnere mich an eine Zeit, als ich nicht zufrieden war
+`Ich erinnere mich an eine Zeit, als ich nicht zufrieden war
 Habe alles zurückgelassen, was ich wusste
 Ich wanderte von Ort zu Ort und verschwendete Zeit ohne Plan
 Ich vergeudete meine jugendlichen Tage und dachte, alles sei großartig

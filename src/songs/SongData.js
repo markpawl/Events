@@ -57,8 +57,8 @@ export let event = {
         }
     },
     "sets": [
-        { "name": "Set-A", "time":"5:00-5:30", "songs": songs },
-        { "name": "Set-B", "time":"6:00-6:30", "songs": songsB },
-        { "name": "Set-C", "time":"7:00-7:30", "songs": songsC },
+        { "name": "A", "time":"5:00-5:30", "songs": songs },
+        { "name": "B", "time":"6:00-6:30", "songs": songsB },
+        { "name": "C", "time":"7:00-7:30", "songs": songsC },
     ]
 }

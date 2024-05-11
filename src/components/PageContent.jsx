@@ -45,7 +45,7 @@ export const PageContent = (params) => {
                 <span onClick={params.toggleVenueModal}>
                     <i className={getCaretClasses(params.showVenue)} ></i>
                 </span>                
-                <span className={"bolded"} >
+                <span >
                     &nbsp;{params.current.event.title} @ {params.event.venue.name}
                 </span>
             </div>
@@ -56,11 +56,13 @@ export const PageContent = (params) => {
                 </span>
                 <span className={"songTitle"}>
                     &nbsp;
-                    <span style={{ fontSize: "large", fontWeight: "bold" }}>{params.current.song.title} </span>
-                    <span style={{ fontSize: "small", fontWeight: "normal" }}>( {params.current.songSet.name} ) </span>
+                    {/* <span style={{ fontSize: "small", fontWeight: "normal" }}>{params.current.songSet.name} </span> */}
+                    <span style={{ fontSize: "medium", fontWeight: "normal" }}>{params.current.song.title} </span>
+                    {/* <span style={{ fontSize: "small", fontWeight: "normal" }}>({params.current.position })</span> */}
 
                     &nbsp;
                 </span>
+                <span style={{ fontSize: "small", paddingTop: "4px" }}>({params.current.position })&nbsp;</span>
                 <button
                     onClick={(event) => onClickPrevious(event)}
                     style={(params.isFirst) ? { backgroundColor: "lightgrey" } : {}}

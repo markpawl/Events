@@ -1,8 +1,7 @@
 let song = {
 "title": "Right Now",
 "lyrics-en":
-`
-You know I love you since a way back when
+`You know I love you since a way back when
 But you never have time to spend with me
 If you're home
 Why not open the door?
@@ -46,8 +45,7 @@ RIGHT NOW!
 `,
 
 "lyrics-de":
-`
-Du weißt, dass ich dich schon vor langer Zeit liebe
+`Du weißt, dass ich dich schon vor langer Zeit liebe
 Aber du hast nie Zeit, mit mir zu verbringen
 Wenn du zu Hause bist
 Warum nicht die Tür öffnen?

@@ -1,8 +1,7 @@
 let song = {
 "title": "Strong",
 "lyrics-en":
-`
-I was just a small boy when she left home
+`I was just a small boy when she left home
 Riding in the back seat was all that I'd know
 The day she left us dad sat me down
 Said there ain't much to it, "boy just be strong"
@@ -43,8 +42,7 @@ just to be strong
 `,
 
 "lyrics-de":
-`
-Ich war noch ein kleiner Junge, als sie das Haus verließ
+`Ich war noch ein kleiner Junge, als sie das Haus verließ
 Das Einzige, was ich wusste, war, auf dem Rücksitz zu sitzen
 An dem Tag, als sie uns verließ, setzte mich Papa hin
 Sagte, da ist nicht viel dran: „Junge, sei einfach stark“

@@ -1,8 +1,7 @@
 let song = {
 "title": "Gonna Do",    
 "lyrics-en": 
-`
-Life has very simple plans
+`Life has very simple plans
 for such an ordinary man
 day by day it fades away
 anything better, is out of his hands
@@ -43,8 +42,7 @@ So many days you gave away
 But today IS in your hands
 `,
 "lyrics-de":
-`
-Das Leben hat sehr einfache Pläne
+`Das Leben hat sehr einfache Pläne
 für so einen gewöhnlichen Mann
 Tag für Tag verschwindet es
 alles Bessere liegt nicht in seiner Hand

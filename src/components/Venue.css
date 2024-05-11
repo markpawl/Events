@@ -13,7 +13,7 @@
     position: absolute;
     width: 90%;
     left: 25px;
-    top: 70px;
+    top: 78px;
     background-color: white;
 }
 .venueHeader{
@@ -30,8 +30,10 @@
 
 .venue button{
     position:absolute;
-    right:20px;
-    margin: 10px;
+    font-size: small;
+    right:0px;
+    margin: 8px;
+    margin-top: 5px;
     display:inline;
-    height: 30px;
+    height: 28px;
 }

@@ -1,9 +1,7 @@
 let song = {
 "title": "Gone To Vegas",
 "lyrics-en":
-`
-
-Well, Oh Yeah  						
+`Well, Oh Yeah  						
 
 Drivin’, you know where to go 
 Got the Fever, and you’re itchin’ to play
@@ -51,8 +49,7 @@ Oh Yeah I been there now
 `,
 
 "lyrics-de":
-`
-Na ja, oh ja
+`Na ja, oh ja
 
 Wenn du fährst, weißt du, wohin du gehen musst
 Ich habe das Fieber und es brennt dir in den Fingern zu spielen

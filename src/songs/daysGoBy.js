@@ -1,8 +1,7 @@
 let song = {
 "title": "Days Go By",
 "lyrics-en":
-`
-days go by and I, wonder why
+`days go by and I, wonder why
 people do the things they do
 cheat and lie, laugh and cry
 heaven knows that what they've done
@@ -47,8 +46,7 @@ when I lost you
 `,
 
 "lyrics-de":
-`
-Tage vergehen und ich frage mich warum
+`Tage vergehen und ich frage mich warum
 Menschen tun die Dinge, die sie tun
 betrügen und lügen, lachen und weinen
 Der Himmel weiß, was sie getan haben

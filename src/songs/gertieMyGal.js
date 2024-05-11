@@ -1,8 +1,7 @@
 let song = {
 "title": "Gertie My Gal",
 "lyrics-en":
-`
-Here I am on the fourth of July
+`Here I am on the fourth of July
 Fixing me up some brisket and pie.
 maybe later I'll go down to the creek,
 skip some stones and cool off my feet,
@@ -44,8 +43,7 @@ Gertie was right there with me!
 Gertie was right there with me!`,
 
 "lyrics-de":
-`
-Hier bin ich am vierten Juli
+`Hier bin ich am vierten Juli
 Ich bereite mir etwas Rinderbrust und Kuchen zu.
 Vielleicht gehe ich später zum Bach hinunter,
 Lass ein paar Steine weg und kühle meine Füße ab,
