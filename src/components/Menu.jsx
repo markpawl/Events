@@ -14,7 +14,7 @@ export function Menu(params) {
     
     return (<div className={classes} >
         <button onClick={(event) => params.closeMenu(event)}>
-            <span><i className="bi bi-x-lg"></i></span>
+            <span><i className="icon-x"></i></span>
         </button>
         <header className={'menuHeader'}>
             {/* <img src="./images/reepschlagerhaus-01-300.jpg" alt={'misc image'} /> */}

@@ -1,0 +1,60 @@
+button span{
+    vertical-align: middle;
+}
+
+.icon-list {
+    background: url('images/list.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin:0px;
+    padding:0px;
+}
+
+
+.icon-x {
+    background: url('images/x-lg.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-caret-right-fill {
+    background: url('images/caret-right-fill.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-caret-down-fill {
+    background: url('images/caret-down-fill.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-caret-right {
+    background: url('images/caret-right.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-caret-left {
+    background: url('images/caret-left.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}

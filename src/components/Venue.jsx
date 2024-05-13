@@ -4,7 +4,7 @@ export function Venue(params) {
 
     return (<div className={'venue'} >
         <button onClick={(event) => params.closeModal(event)}>
-            <span><i className="bi bi-x-lg"></i></span>
+            <span><i className="icon-x"></i></span>
         </button>
         <header className={'venueHeader'}>
             <img src="./images/reepschlagerhaus-01-300.jpg" alt={params.venue.description} />

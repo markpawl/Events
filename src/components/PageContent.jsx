@@ -30,9 +30,11 @@ export const PageContent = (params) => {
 
     function getCaretClasses(showVariable){
         if(showVariable){
-            return "caretIcon bi bi-caret-down-fill";
+            // return "caretIcon bi bi-caret-down-fill";
+            return "icon-caret-down-fill";
         }else{
-            return "caretIcon bi bi-caret-right-fill";
+            // return "caretIcon bi bi-caret-right-fill";
+            return "icon-caret-right-fill";
         }
     }
 
@@ -68,7 +70,7 @@ export const PageContent = (params) => {
                     style={(params.isFirst) ? { backgroundColor: "lightgrey" } : {}}
                 >
                     <span><i
-                        className="bi bi-caret-left" // -fill
+                        className="icon-caret-left" // -fill
                     ></i></span>
                 </button>
                 &nbsp;
@@ -77,7 +79,7 @@ export const PageContent = (params) => {
                     style={(params.isLast) ? { backgroundColor: "lightgrey" } : {}}
                 >
                     <span><i
-                        className="bi bi-caret-right" //-fill
+                        className="icon-caret-right" //-fill
                     ></i></span>
                 </button>
                 &nbsp;

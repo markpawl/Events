@@ -26,9 +26,11 @@ export const SetList = (params) => {
 
     function getCaretClasses(showVariable){
         if(showVariable){
-            return "caretIcon bi bi-caret-down-fill";
+            // return "caretIcon bi bi-caret-down-fill";
+            return "icon-caret-down-fill";
         }else{
-            return "caretIcon bi bi-caret-right-fill";
+            // return "caretIcon bi bi-caret-right-fill";
+            return "icon-caret-right-fill";
         }
     }
 

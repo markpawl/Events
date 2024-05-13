@@ -4,7 +4,10 @@ export function Artist(params) {
 
     return (<div className={'artist'} >
         <button onClick={(event) => params.closeModal(event)}>
-            <span><i className="bi bi-x-lg"></i></span>
+            <span>
+                {/* <i className="bi bi-x-lg"></i> */}
+                <i className="icon-x"></i>
+            </span>
         </button>
         <header className={'artistHeader'}>
             <img src="./images/markpawl-01-300.jpg" alt={params.artist.description} />
