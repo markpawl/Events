@@ -10,7 +10,7 @@ import { Venue } from './components/Venue';
 import { Menu } from './components/Menu';
 
 const Modal = (params) => {
-    let modClasses = `modal ${(params.show) ? 'show' : 'hide'}`;
+    let modClasses = `${(params.show) ? 'show' : 'hide'} setlistmodal`;
     return (
         <div className={modClasses}
          >
