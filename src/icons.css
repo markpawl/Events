@@ -28,6 +28,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
+    margin-top: 6px;
     height: 16px;
     width: 16px;
 }
@@ -37,6 +38,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
+    margin-top: 6px;    
     height: 16px;
     width: 16px;
 }
@@ -46,6 +48,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
+    margin-top: 5px;
     height: 16px;
     width: 16px;
 }
@@ -55,6 +58,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
+    margin-top: 5px;
     height: 16px;
     width: 16px;
 }
