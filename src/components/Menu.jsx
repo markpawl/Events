@@ -9,7 +9,7 @@ export function Menu(params) {
 - Event Info
 - Set Lists
 - Song Lyrics
-- Links & Contact Info
+- Contact Info
 `;
     
     return (<div className={classes} >
