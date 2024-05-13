@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './PageContent.css';
+import usaFlagUrl from '../assets/usflag.png';
+import germanyFlagUrl from '../assets/germanyflag.png';
 
 export const PageContent = (params) => {
     let [language, setLanguage] = useState("en");
@@ -83,13 +85,14 @@ export const PageContent = (params) => {
                     ></i></span>
                 </button>
                 &nbsp;
-                <img src="/images/usa-flag.png"
+                <img  />
+                <img src={usaFlagUrl}
                     className={(language === "en" ? "borderBlack" : "borderWhite")}
                     alt="usa flag"
                     onClick={(event) => onLanguageButtonPress(event, "en")}
                 ></img>
 
-                <img src="/images/germany-flag.png"
+                <img src={germanyFlagUrl}
                     className={(language === "de" ? "borderBlack" : "borderWhite")}
                     alt="germany flag"
                     onClick={(event) => onLanguageButtonPress(event, "de")}
