@@ -96,7 +96,7 @@ export const PageContent = (params) => {
             </div>
         </div>
 
-        <pre>{getLyrics() + " (c) Mark Pawlowski"}</pre>
+        <pre className={'preContent'}>{getLyrics() + " (c) Mark Pawlowski"}</pre>
         <div className={'pageEnd'}></div>
     </>
 }
