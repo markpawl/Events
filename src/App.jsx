@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
 import { event } from './songs/SongData';
 import { SetList } from './components/SetList';
@@ -165,7 +163,6 @@ const App = () => {
             >
             <div>
                 <button onClick={(event) => toggleMenu(event)}>
-                    {/* <span><i className="bi bi-list"></i></span> */}
                     <span><i className="icon-list"></i></span>
                 </button>
             </div>

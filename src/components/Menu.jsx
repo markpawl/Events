@@ -17,7 +17,6 @@ export function Menu(params) {
             <span><i className="icon-x"></i></span>
         </button>
         <header className={'menuHeader'}>
-            {/* <img src="./images/reepschlagerhaus-01-300.jpg" alt={'misc image'} /> */}
             <div>
                 <h1>Event App</h1>
             </div>

@@ -16,15 +16,6 @@ button{
     display: block;
 }
 
-/* .modal {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0px;
-    top: 110px;
-    background-color: bisque;
-} */
-
 .bordered{
     border: 2px solid chocolate;
     border-radius: 4px;

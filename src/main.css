@@ -1,5 +1,3 @@
-/* @import url('bootstrap/dist/css/bootstrap.min.css'); */
-/* @import url('bootstrap-icons/font/bootstrap-icons.css'); */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,17 +14,17 @@ code {
 
 .container {
   display: flex;
-  width: 100%;  /* Adjust width as needed */
+  width: 100%;  
 }
 
 .list-container {
-  flex: 1;  /* Makes the list take up remaining space */
+  flex: 1;  
   padding: 10px;
   min-width: 100px; 
-  border-right: 1px solid #ddd;  /* Optional border */
+  border-right: 1px solid #ddd; 
 }
 
 .details {
-  flex: 8;  /* Makes the details take up twice the space of the list */
+  flex: 8;  
   padding: 10px;
 }

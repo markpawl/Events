@@ -45,7 +45,6 @@ export const PageContent = (params) => {
             <div className={'eventHeader'}
                 onClick={params.toggleVenueModal}
             >
-                {/* <span>Event: </span> */}
                 <span onClick={params.toggleVenueModal}>
                     <i className={getCaretClasses(params.showVenue)} ></i>
                 </span>                
@@ -60,10 +59,7 @@ export const PageContent = (params) => {
                 </span>
                 <span className={"songTitle"}>
                     &nbsp;
-                    {/* <span style={{ fontSize: "small", fontWeight: "normal" }}>{params.current.songSet.name} </span> */}
                     <span style={{ fontSize: "medium", fontWeight: "normal" }}>{params.current.song.title} </span>
-                    {/* <span style={{ fontSize: "small", fontWeight: "normal" }}>({params.current.position })</span> */}
-
                     &nbsp;
                 </span>
                 <span style={{ fontSize: "small", paddingTop: "4px" }}>({params.current.position })&nbsp;</span>

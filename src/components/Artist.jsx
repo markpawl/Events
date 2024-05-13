@@ -5,7 +5,6 @@ export function Artist(params) {
     return (<div className={'artist'} >
         <button onClick={(event) => params.closeModal(event)}>
             <span>
-                {/* <i className="bi bi-x-lg"></i> */}
                 <i className="icon-x"></i>
             </span>
         </button>
