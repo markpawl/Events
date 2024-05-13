@@ -3,7 +3,7 @@ button span{
 }
 
 .icon-list {
-    background: url('images/list.svg');
+    background: url('./icons/list.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
@@ -15,7 +15,7 @@ button span{
 
 
 .icon-x {
-    background: url('images/x-lg.svg');
+    background: url('./icons/x-lg.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
@@ -24,7 +24,7 @@ button span{
 }
 
 .icon-caret-right-fill {
-    background: url('images/caret-right-fill.svg');
+    background: url('./icons/caret-right-fill.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
@@ -33,7 +33,7 @@ button span{
 }
 
 .icon-caret-down-fill {
-    background: url('images/caret-down-fill.svg');
+    background: url('./icons/caret-down-fill.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
@@ -42,7 +42,7 @@ button span{
 }
 
 .icon-caret-right {
-    background: url('images/caret-right.svg');
+    background: url('./icons/caret-right.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
@@ -51,7 +51,7 @@ button span{
 }
 
 .icon-caret-left {
-    background: url('images/caret-left.svg');
+    background: url('./icons/caret-left.svg');
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
