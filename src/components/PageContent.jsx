@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import './PageContent.css';
-import usaFlagUrl from '../assets/usflag.png';
-import germanyFlagUrl from '../assets/germanyflag.png';
 
 export const PageContent = (params) => {
     let [language, setLanguage] = useState("en");
