@@ -81,18 +81,25 @@ export const PageContent = (params) => {
                     ></i></span>
                 </button>
                 &nbsp;
-                <img  />
-                <img src={usaFlagUrl}
+                <span
+                    className={(language === "en" ? "borderBlack" : "borderWhite")}
+                    onClick={(event) => onLanguageButtonPress(event, "en")}
+                ><i className="icon-usaFlag" ></i></span>
+                {/* <img src={usaFlagUrl}
                     className={(language === "en" ? "borderBlack" : "borderWhite")}
                     alt="usa flag"
                     onClick={(event) => onLanguageButtonPress(event, "en")}
-                ></img>
-
-                <img src={germanyFlagUrl}
+                ></img> */}
+                <span
                     className={(language === "de" ? "borderBlack" : "borderWhite")}
                     alt="germany flag"
                     onClick={(event) => onLanguageButtonPress(event, "de")}
-                ></img>
+                ><i className="icon-germanyFlag" ></i></span>
+                {/* <img src={germanyFlagUrl}
+                    className={(language === "de" ? "borderBlack" : "borderWhite")}
+                    alt="germany flag"
+                    onClick={(event) => onLanguageButtonPress(event, "de")}
+                ></img> */}
             </div>
         </div>
 

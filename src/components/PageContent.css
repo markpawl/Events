@@ -47,9 +47,13 @@
 
 .borderWhite{
     border: 3px solid blanchedalmond;
+    height:28px;
+    border-radius: 15%;    
 }
 .borderBlack{
     border: 3px solid darkgrey;
+    height:28px;
+    border-radius: 15%;
 }
 .pageEnd{
     height: 20px;
