@@ -46,13 +46,14 @@
 }
 
 .borderWhite{
-    border: 3px solid blanchedalmond;
-    height:28px;
+    border: 2px solid blanchedalmond;
+    height:24px;
     border-radius: 15%;    
 }
 .borderBlack{
-    border: 3px solid darkgrey;
-    height:28px;
+    border: 2px solid darkgrey;
+    background-color: darkgray;
+    height:24px;
     border-radius: 15%;
 }
 .pageEnd{

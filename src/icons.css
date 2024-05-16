@@ -9,7 +9,7 @@ button span{
     display: inline-block;
     height: 16px;
     width: 16px;
-    margin:0px;
+    margin-top:3px;
     padding:0px;
 }
 
@@ -21,6 +21,8 @@ button span{
     display: inline-block;
     height: 16px;
     width: 16px;
+    margin-top:3px;
+    padding:0px;    
 }
 
 .icon-caret-right-fill {
@@ -48,7 +50,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 4px;
     height: 16px;
     width: 16px;
 }
@@ -58,7 +60,7 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 4px;
     height: 16px;
     width: 16px;
 }
@@ -68,8 +70,9 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
+    border-radius:15%;
 }
 
 .icon-germanyFlag {
@@ -77,8 +80,9 @@ button span{
     background-repeat: no-repeat;
     background-size: cover; 
     display: inline-block;
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
+    border-radius:15%;
 }
 
 .icon-caret-down {
