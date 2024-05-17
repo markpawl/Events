@@ -28,7 +28,7 @@ import biography from "./biography";
 
 export let emptySong = { "title": "na", "lyrics-en": "na", "lyrics-de": "na" };
 
-let songs = [sophia, gonnaDo, bigPockets, specialWay, standAndFight, believe, gertieMyGal, shine, together]
+let songs = [gonnaDo, specialWay, standAndFight, sophia, believe, bigPockets, gertieMyGal, together, shine]
 let songsB = [rightNow, happy, backAgain, mosey, undertow, getThatRight, daysGoBy, nowhere, loveIsAllAround]
 let songsC = [goneToVegas, strong, slow, bittersweet, someoneLikeYou, mosey, daysGoBy,goodbye,shesComingHome, bigBelly]
 
