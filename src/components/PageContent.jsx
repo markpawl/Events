@@ -55,7 +55,7 @@ export const PageContent = (params) => {
                 <span onClick={params.toggleSidebar}>
                     <i className={getCaretClasses(params.showSidebar)} ></i>
                 </span>
-                <span className={"songTitle"}>
+                <span className={"songTitle"} onClick={params.toggleSidebar} >
                     &nbsp;
                     <span style={{ fontSize: "medium", fontWeight: "normal" }}>{params.current.song.title} </span>
                     &nbsp;
@@ -83,21 +83,11 @@ export const PageContent = (params) => {
                     className={(language === "en" ? "borderBlack" : "borderWhite")}
                     onClick={(event) => onLanguageButtonPress(event, "en")}
                 ><i className="icon-usaFlag" ></i></span>
-                {/* <img src={usaFlagUrl}
-                    className={(language === "en" ? "borderBlack" : "borderWhite")}
-                    alt="usa flag"
-                    onClick={(event) => onLanguageButtonPress(event, "en")}
-                ></img> */}
                 <span
                     className={(language === "de" ? "borderBlack" : "borderWhite")}
                     alt="germany flag"
                     onClick={(event) => onLanguageButtonPress(event, "de")}
                 ><i className="icon-germanyFlag" ></i></span>
-                {/* <img src={germanyFlagUrl}
-                    className={(language === "de" ? "borderBlack" : "borderWhite")}
-                    alt="germany flag"
-                    onClick={(event) => onLanguageButtonPress(event, "de")}
-                ></img> */}
             </div>
         </div>
 
