@@ -11,14 +11,14 @@ Got somewhere to go - Finally seeing the signs
 Just loosen my hold, it falls into place
 Looking back at life - moving forward in time
 to create a future I'm willing to face
-- and I gotta face
+- and I've got to face
 
 I wasted the day, I waited online,
 I was given to take, I was taking my time,
-still she smiled at me like a bird of prey, and said
-"you’ve got a hopeless heart" yeah, She's got a special way
+but she smiles at me and her eyes they say,
+"this is where we start" yeah, She's got a special way
 
-ooh ooh ooh, special
+>>> ooh ooh ooh, special <<<
 
 Let your worries fade, things will be just fine
 The only facts to face are these dreams of mine
@@ -27,9 +27,11 @@ This rainy day will be a beautiful place
 - Our beautiful place
 
 I wasted the day I waited online,
-I was given to take, I was taking my time,
-the way she smiled at me, it was plain to see,
+I was given to take, and I was taking my time,
+but she smiles at me, and I'm afraid,
 she's gonna steal my heart, yeah, She's got a special way
+
+She has a special way (repeat…)
 `,
 
 "lyrics-de":
@@ -47,10 +49,11 @@ um eine Zukunft zu schaffen, der ich mich stellen möchte
 
 Ich habe den Tag verschwendet, ich habe online gewartet,
 Mir wurde gegeben, ich ließ mir Zeit,
-Trotzdem lächelte sie mich wie ein Raubvogel an und sagte
-„Du hast ein hoffnungsloses Herz“ Ja, sie hat eine besondere Art
+Aber sie lächelt mich an und ihre Augen sagen:
+„Hier fangen wir an“ Ja, sie hat eine besondere Art
+„Etwas fängt gleich an“, ...
 
-Ooh ooh ooh, besonders
+>>> ooh ooh ooh, besonders <<<
 
 Lassen Sie Ihre Sorgen verschwinden, alles wird gut
 Die einzigen Tatsachen, denen man sich stellen muss, sind diese Träume von mir
@@ -59,9 +62,11 @@ Dieser regnerische Tag wird ein wunderschöner Ort sein
 - Unser schöner Ort
 
 Ich habe den Tag verschwendet, an dem ich online gewartet habe,
-Mir wurde gegeben, ich ließ mir Zeit,
-Die Art, wie sie mich anlächelte, war deutlich zu sehen,
+Mir wurde gegeben, zu nehmen, und ich ließ mir Zeit,
+aber sie lächelt mich an und ich habe Angst,
 Sie wird mein Herz stehlen, ja, sie hat eine besondere Art
+
+Sie hat eine besondere Art (wiederholen ...)
 `
 }
 
