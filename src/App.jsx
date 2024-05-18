@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { event } from './songs/SongData';
 import { SetList } from './components/SetList';
@@ -40,8 +40,24 @@ const App = () => {
     const [showArtist, setShowArtist] = useState(false);
     const [showVenue, setShowVenue] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
+    const storageKey = 'setAndSong';
+    let defaultLocater = { event: event, setNumber: 0, songNumber: 0 };
 
-    const [locater, setLocater] = useState({ event: event, setNumber: 0, songNumber: 0 });
+    // retrieve locally persisted settings
+    let storedSetAndSongString = localStorage.getItem(storageKey); 
+    if(storedSetAndSongString){
+        let storedSetAndSong = JSON.parse(storedSetAndSongString);
+        defaultLocater = {event: event, ...storedSetAndSong }
+    }
+
+    const [locater, setLocater] = useState(defaultLocater);
+
+    // persist changes to set and song locally
+    useEffect(() => {
+        let setAndSong = { setNumber: locater.setNumber, songNumber: locater.songNumber };
+        localStorage.setItem(storageKey, JSON.stringify(setAndSong))
+    }, [locater]);
+
 
     function getCurrent(locater) {
         let event = locater.event;
