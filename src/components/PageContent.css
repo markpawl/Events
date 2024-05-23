@@ -51,8 +51,8 @@
     border-radius: 15%;    
 }
 .borderBlack{
-    border: 2px solid darkgrey;
-    background-color: darkgray;
+    border: 2px solid #aaa;
+    background-color: #aaa;
     height:24px;
     border-radius: 15%;
 }
