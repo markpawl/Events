@@ -12,6 +12,7 @@ import rightNow from "./rightNow";
 import happy from "./happy";
 import mosey from "./mosey";
 import undertow from "./undertow";
+import closerToYou from "./closerToYou";
 import getThatRight from "./getThatRight";
 import daysGoBy from "./daysGoBy";
 import nowhere from "./nowhere";
@@ -25,12 +26,15 @@ import goodbye from "./goodbye";
 import shesComingHome from "./shesComingHome";
 import bigBelly from "./bigBelly";
 import biography from "./biography";
+import orSoWeThought from './orSoWeThought';
+// import somethin from './somethin';
 
 export let emptySong = { "title": "na", "lyrics-en": "na", "lyrics-de": "na" };
 
-let songs = [gonnaDo, specialWay, standAndFight, sophia, believe, bigPockets, gertieMyGal, together, shine]
-let songsB = [rightNow, happy, backAgain, mosey, undertow, getThatRight, daysGoBy, nowhere, loveIsAllAround]
-let songsC = [goneToVegas, strong, slow, bittersweet, someoneLikeYou, mosey, daysGoBy,goodbye,shesComingHome, bigBelly]
+let songsA = [gonnaDo, specialWay, standAndFight, sophia, believe, bigPockets, mosey, together]
+let songsB = [shine, rightNow, happy, undertow, closerToYou, daysGoBy, nowhere, loveIsAllAround]
+let songsC = [goodbye, goneToVegas, slow, bittersweet, someoneLikeYou, daysGoBy,shesComingHome, bigBelly]
+let songsE = [orSoWeThought, getThatRight, strong , gertieMyGal, backAgain];
 
 export let event = {
     "title": "Kulturnacht Wedel", 
@@ -57,8 +61,9 @@ export let event = {
         }
     },
     "sets": [
-        { "name": "A", "time":"5:00-5:30", "songs": songs },
-        { "name": "B", "time":"6:00-6:30", "songs": songsB },
-        { "name": "C", "time":"7:00-7:30", "songs": songsC },
+        { "name": "A", "time":"5:30-6:00", "songs": songsA },
+        { "name": "B", "time":"6:30-7:00", "songs": songsB },
+        { "name": "C", "time":"7:30-8:00", "songs": songsC },
+        { "name": "E", "time":"Other...", "songs": songsE },
     ]
 }
