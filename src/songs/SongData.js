@@ -27,14 +27,21 @@ import shesComingHome from "./shesComingHome";
 import bigBelly from "./bigBelly";
 import biography from "./biography";
 import orSoWeThought from './orSoWeThought';
-// import somethin from './somethin';
+import broken from './broken';
+import freeFallin from './freeFallin';
+import theWeight from './theWeight';
+import brownEyedGirl from './brownEyedGirl';
 
 export let emptySong = { "title": "na", "lyrics-en": "na", "lyrics-de": "na" };
+// let freeFallin = emptySong;
+// let theWeight = emptySong;
+// let brownEyedGirl = emptySong;
 
-let songsA = [gonnaDo, specialWay, standAndFight, sophia, believe, bigPockets, mosey, together]
-let songsB = [shine, rightNow, happy, undertow, closerToYou, daysGoBy, nowhere, loveIsAllAround]
-let songsC = [goodbye, goneToVegas, slow, bittersweet, someoneLikeYou, daysGoBy,shesComingHome, bigBelly]
-let songsE = [orSoWeThought, getThatRight, strong , gertieMyGal, backAgain];
+
+let songsA = [gonnaDo, specialWay, orSoWeThought, standAndFight, sophia, believe, mosey, bigPockets,together]
+let songsB = [shine, undertow, rightNow, broken, happy, closerToYou, daysGoBy, getThatRight, loveIsAllAround]
+let songsC = [goodbye, slow, daysGoBy, shesComingHome, goneToVegas,  bittersweet, backAgain, bigBelly, someoneLikeYou]
+let songsE = [loveIsAllAround, nowhere, together, freeFallin , theWeight, brownEyedGirl ];
 
 export let event = {
     "title": "Kulturnacht Wedel", 
