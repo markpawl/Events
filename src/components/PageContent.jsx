@@ -19,6 +19,14 @@ export const PageContent = (params) => {
         event.stopPropagation();
     }
 
+    function getArtist(){
+        if(params.current.song.artist){
+            return params.current.song.artist;
+        }else{
+            return params.current.event.artist.name;
+        }
+    }
+
     function getLyrics() {
         switch (language) {
             case "de": // german
@@ -91,7 +99,7 @@ export const PageContent = (params) => {
             </div>
         </div>
 
-        <pre className={'preContent'}>{getLyrics() + " (c) Mark Pawlowski"}</pre>
+        <pre className={'preContent'}>{getLyrics() + " (c) " + getArtist()}</pre>
         <div className={'pageEnd'}></div>
     </>
 }
