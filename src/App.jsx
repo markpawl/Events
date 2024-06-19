@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { event } from './songs/SongData';
+import events from './events';
 import { SetList } from './components/SetList';
 import { PageContent } from './components/PageContent';
 import { Artist } from './components/Artist';
 import { Venue } from './components/Venue';
 import { Menu } from './components/Menu';
+
+const event = events["beachParty"]
 
 const Modal = (params) => {
     let modClasses = `${(params.show) ? 'show' : 'hide'} setlistmodal`;

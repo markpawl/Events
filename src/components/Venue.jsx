@@ -7,7 +7,7 @@ export function Venue(params) {
             <span><i className="icon-x"></i></span>
         </button>
         <header className={'venueHeader'}>
-            <img src="./images/reepschlagerhaus-01-300.jpg" alt={params.venue.description} />
+            <img src={params.venue.image} alt={params.venue.description} />
             <div>
                 <h1>Venue</h1>
                 <h3>{params.venue.name}</h3>
