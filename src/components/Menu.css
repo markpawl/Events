@@ -10,8 +10,7 @@ pre{
     font-size: 1.2em;
 }
 .menumodal img{
-    height: 75px;
-    margin-right:10px;
+    width: 150px;
 }
 .menumodal {
     position: absolute;
@@ -32,6 +31,11 @@ pre{
     flex-direction: column;
     margin-left: 10px;
     margin-bottom:10px;;
+}
+
+.menuInfo h3{
+    margin: 0px;
+    margin-bottom:5px;
 }
 
 .menu button{

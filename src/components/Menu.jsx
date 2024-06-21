@@ -9,7 +9,6 @@ export function Menu(params) {
 - Event Info
 - Set Lists
 - Song Lyrics
-- Contact Info
 `;
     
     return (<div className={classes} >
@@ -23,6 +22,10 @@ export function Menu(params) {
         </header>
         <div className={'menuInfo'}>
                 <div><pre className={'content'}>{preText}</pre></div>
+                <h3>Share this App</h3>
+                <img src='./images/markpawl-events.vercel.app.QR-Code.png' />
+                <br/>
+                <h3>Contact</h3>
                 <span><a href={'http://markpawl.com'} target="_blank" rel="noreferrer" >http://markpawl.com</a></span>
                 <span><a href={`mailto://markpawl.music@gmail.com`} target="_blank" rel="noreferrer">markpawl.music@gmail.com</a></span>
             </div>
