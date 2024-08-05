@@ -7,7 +7,7 @@ import { Artist } from './components/Artist';
 import { Venue } from './components/Venue';
 import { Menu } from './components/Menu';
 
-const event = events["beachParty"]
+const event = events["kulturnachtWedel"]
 
 const Modal = (params) => {
     let modClasses = `${(params.show) ? 'show' : 'hide'} setlistmodal`;
