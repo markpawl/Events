@@ -12,7 +12,7 @@ Anyone who subscribes to streaming services such as Apple Music and Spotify can 
 
 let artist = {
     "name": "Mark Pawlowski",
-    "description": "Singer songwriter from the USA, living in Hamburg Germany",
+    "description": "Singer Songwriter from the USA, living in Hamburg Germany",
     "biography": biography,
     "image": "images/markpawl-01-300.jpg",
     "links": {
