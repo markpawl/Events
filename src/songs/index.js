@@ -32,12 +32,27 @@ import freeFallin from './freeFallin';
 import theWeight from './theWeight';
 import brownEyedGirl from './brownEyedGirl';
 
+import something from './something';
+import comingDown from './comingDown';
+import toBeLoved from './toBeLoved';
+
 let emptySong = { "title": "na", "lyrics-en": "na", "lyrics-de": "na" };
 
 let songsA = [gonnaDo, specialWay, orSoWeThought, standAndFight, sophia, believe, mosey, bigPockets,together]
 let songsB = [shine, undertow, rightNow, broken, happy, closerToYou, daysGoBy, getThatRight, loveIsAllAround]
 let songsC = [goodbye, slow, daysGoBy, shesComingHome, goneToVegas,  bittersweet, backAgain, bigBelly, someoneLikeYou]
 let songsD = [loveIsAllAround, nowhere, together, freeFallin , theWeight, brownEyedGirl ];
+
+let houseA = [gonnaDo, specialWay, orSoWeThought, standAndFight, sophia, believe, mosey, bigPockets,together]
+let houseB = [shine, undertow, rightNow, broken, happy, closerToYou, daysGoBy, getThatRight, loveIsAllAround]
+let houseC = [goodbye, slow, daysGoBy, shesComingHome, goneToVegas,  bittersweet, backAgain, bigBelly, someoneLikeYou]
+let houseD = [loveIsAllAround, nowhere, together, freeFallin , theWeight, brownEyedGirl ];
+
+let album1 = [sophia, gonnaDo, together, getThatRight, specialWay, standAndFight, broken, toBeLoved,undertow, bigBelly]
+let album2 = [shine, believe, bigPockets, strong, backAgain, something, comingDown, rightNow, goneToVegas, mosey]
+let album3 = [slow, goodbye, happy, daysGoBy, bittersweet, orSoWeThought, closerToYou, someoneLikeYou, gertieMyGal, nowhere]
+let other = [loveIsAllAround, shesComingHome, freeFallin , theWeight, brownEyedGirl ];
+
 
 let beachA = [orSoWeThought, believe, together, rightNow, broken, happy, closerToYou, nowhere];
 let beachB = [shine, undertow, goodbye, slow, daysGoBy, goneToVegas,  bittersweet, loveIsAllAround ];
@@ -47,6 +62,16 @@ export const setLists = {
     "songsB": songsB,
     "songsC": songsC,
     "songsD": songsD,
+
+    "album1": album1,
+    "album2": album2,
+    "album3": album3,
+    "other": other,    
+
+    "house3A": houseA,
+    "house3B": houseB,
+    "house3C": houseC,
+    "house3D": houseD,    
     "beachA": beachA,
     "beachB": beachB
 }
