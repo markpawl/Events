@@ -1,21 +1,38 @@
-# 🎵 Events PWA
+# Live Performance Events Guide 🎵 
 
-### Your music performances, organized. Discover artists, explore setlists, and never miss a show — installable on any device.
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/markpawl/Events/ci.yml?branch=master&style=flat-square&label=build)](https://github.com/markpawl/Events/actions)
+<!-- [![Build Status](https://img.shields.io/github/actions/workflow/status/markpawl/Events/ci.yml?branch=master&style=flat-square&label=build)](https://github.com/markpawl/Events/actions) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/markpawl/Events?style=flat-square)](https://github.com/markpawl/Events/stargazers)
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://events-two-khaki.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://markpawl-events.vercel.app/)
+
+### Features:
+
+**Lets audience members:**
+
+- Access information about the event,
+- View artist's bio,
+- See the setlist,
+- Pick any setlist song to view, 
+- Check out song lyrics,
+- See lyrics in an alternate language,
+- Easily install on any device,
+<br>
+
 
 ---
 
-## 🖼️ It looks like this...
+## 🖼️ Take a Look...
 
 Click here to **[View Live Demo →](https://markpawl-events.vercel.app/)**
-
-<img width="320" height="547" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
+<br>
+<details>
+  <summary>🔍 Click here to View Full Screenshot</summary>
+  <br>
+  <img width="320" height="547" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
+</details>
+<br>
+<img width="150" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
 <br/>
-
 ---
 
 ## ⚡ Quick Start
