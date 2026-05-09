@@ -7,15 +7,11 @@
 [![Stars](https://img.shields.io/github/stars/markpawl/Events?style=flat-square)](https://github.com/markpawl/Events/stargazers)
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://events-two-khaki.vercel.app)
 
-
-
 ---
 
 ## 🖼️ It looks like this...
 
 Click here to **[View Live Demo →](https://markpawl-events.vercel.app/)**
-
-**Screenshot**
 
 <img width="320" height="547" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
 <br/>
