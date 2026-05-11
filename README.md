@@ -5,34 +5,38 @@
 [![Stars](https://img.shields.io/github/stars/markpawl/Events?style=flat-square)](https://github.com/markpawl/Events/stargazers)
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://markpawl-events.vercel.app/)
 
+---
+
+<img align="left" width="150" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" style="margin-right: 20px" />
+
 ### Features:
-
-**Lets audience members:**
-
-- Access information about the event,
+- Access event information,
 - View artist's bio,
-- See the setlist,
+- See the set list,
 - Pick any setlist song to view, 
 - Check out song lyrics,
 - See lyrics in an alternate language,
 - Easily install on any device,
 <br>
 
-
 ---
 
 ## 🖼️ Take a Look...
 
-Click here to **[View Live Demo →](https://markpawl-events.vercel.app/)**
+Click here to **[Open Live Demo in a new Tab](https://markpawl-events.vercel.app/)**
 <br>
-<details>
-  <summary>🔍 Click here to View Full Screenshot</summary>
-  <br>
-  <img width="320" height="547" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
-</details>
-<br>
-<img width="150" alt="Screenshot 2026-05-09 at 3 03 41 PM" src="https://github.com/user-attachments/assets/c59d46ee-dab0-4120-ab8c-4debc0ba06f2" />
-<br/>
+Or check out the screen video below.
+
+<table style="border: 1px solid white;" cellpadding="0" cellspacing="0">
+  <tr style="border: 1px solid white;">
+    <td width="280" valign="top" style="border: 1px solid white;">
+<video src="https://github.com/user-attachments/assets/f7f5bf4f-92ef-4d9b-b2d5-dbe73cea9278" width="280" controls muted autoplay loop>
+  Your browser does not support the video tag.
+</video>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## ⚡ Quick Start
